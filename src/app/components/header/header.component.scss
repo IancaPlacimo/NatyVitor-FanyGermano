@@ -1,0 +1,59 @@
+.header {
+  // background: linear-gradient(to bottom, #ffffff, #eac9d0);
+  background-color: #fdfcfc;
+  color: #efb2c5;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 40px;
+
+  &__img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__img {
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+
+  ul {
+    margin-top: 10px;
+  }
+}
+
+/* Ajustes para iPad */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Estilos para o footer */
+// footer {
+//   background-color: #333;
+//   color: #fff;
+//   padding: 20px 0;
+//   text-align: center;
+// }

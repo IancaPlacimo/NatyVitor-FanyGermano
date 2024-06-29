@@ -1,0 +1,55 @@
+/* Estilos CSS */
+.footer-content {
+  display: flex;
+  background-color: #fffefe;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 300px; /* Ajuste a largura conforme necessário */
+  margin: 0 10px;
+  padding: 20px 0;
+}
+
+.footer-section h3 {
+  color: #efb2c5;
+  font-size: 1.2rem;
+}
+
+.footer-section p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #efb2c5;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #efb2c5;
+}
+
+.contact-info {
+  display: block;
+  margin-top: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #fce4ec;
+  color: #efb2c5;
+  font-size: 0.8rem;
+}

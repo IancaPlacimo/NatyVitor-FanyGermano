@@ -1,0 +1,54 @@
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.card {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  position: relative;
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px 8px 0 0; /* Arredonda apenas a parte superior da imagem */
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo branco transparente */
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 0 0 8px 8px; /* Arredonda apenas a parte inferior do conteúdo */
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 80%;
+  }
+
+  .card-img img {
+    border-radius: 8px; /* Adaptação para uma borda arredondada em telas menores */
+  }
+}
