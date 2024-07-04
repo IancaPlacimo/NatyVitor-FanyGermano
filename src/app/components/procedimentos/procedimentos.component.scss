@@ -1,0 +1,79 @@
+.container {
+  max-width: 100%;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #f471c1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.procedure-category {
+  margin-bottom: 30px;
+}
+
+.procedure-category h2 {
+  color: #f471c1;
+  border-bottom: 2px solid #f471c1;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.procedure {
+  margin-bottom: 20px;
+}
+
+.procedure h3 {
+  color: #f471c1;
+  margin-bottom: 10px;
+}
+
+.procedure p {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.back-to-home {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-home a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f471c1;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-home a:hover {
+  background-color: #d850a8;
+}
+
+.back-to-home a i {
+  margin-right: 5px;
+}
+
+.back-link {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000; /* Para garantir que fique acima do conteúdo */
+}
+
+.back-link img {
+  width: 50px; /* Tamanho da seta */
+  height: auto;
+}

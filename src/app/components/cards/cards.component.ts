@@ -1,3 +1,5 @@
+import { Router } from '@angular/router';
+import { routes } from './../../app.routes';
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,8 +7,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './cards.component.html',
-  styleUrl: './cards.component.scss'
+  styleUrl: './cards.component.scss',
 })
 export class CardsComponent {
-
+  constructor(private router: Router) {}
 }

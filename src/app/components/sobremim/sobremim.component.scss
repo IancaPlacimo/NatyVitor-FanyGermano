@@ -1,0 +1,54 @@
+.container {
+  max-width: 100%;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-image {
+  margin-top: -40px;
+  width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto;
+  border-radius: 50%; /* Para criar uma imagem circular */
+  margin-bottom: 20px;
+}
+
+h2,
+h3 {
+  color: #f471c1; /* Cor das cabeçalhos h2 e h3 */
+}
+
+p {
+  color: white; /* Cor do texto dos parágrafos */
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  color: white; /* Cor do texto dos itens da lista */
+}
+
+.back-link {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000; /* Para garantir que fique acima do conteúdo */
+}
+
+.back-link img {
+  width: 30px; /* Tamanho da seta */
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

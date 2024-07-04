@@ -1,13 +1,19 @@
 .header {
   // background: linear-gradient(to bottom, #ffffff, #eac9d0);
-  background-color: #fdfcfc;
-  color: #efb2c5;
+
+  // background-image: url("../../../assets/images/nati.png");
+  background-position: bottom left; /* Posiciona a imagem no canto inferior esquerdo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-size: 25%; /* Define o tamanho da imagem como metade do seu tamanho original */
+  background-color: #121212;
+  color: #f471c1;
   padding: 20px;
   text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 15px 40px;
+  // border-bottom: 1px solid black;
 
   &__img {
     max-width: 150px;
@@ -16,7 +22,7 @@
 
   &__list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 15px;
   }
 

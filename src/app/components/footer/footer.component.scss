@@ -1,7 +1,7 @@
 /* Estilos CSS */
 .footer-content {
   display: flex;
-  background-color: #fffefe;
+  background-color: #121212;
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -14,7 +14,7 @@
 }
 
 .footer-section h3 {
-  color: #efb2c5;
+  color: #f471c1;
   font-size: 1.2rem;
 }
 
@@ -33,12 +33,12 @@
 }
 
 .footer-section ul li a {
-  color: #efb2c5;
+  color: #f471c1;
   text-decoration: none;
 }
 
 .footer-section ul li a:hover {
-  color: #efb2c5;
+  color: #f471c1;
 }
 
 .contact-info {
@@ -48,7 +48,11 @@
 .footer-bottom {
   text-align: center;
   padding: 10px 0;
-  background-color: #fce4ec;
-  color: #efb2c5;
+  background-color: #121212;
+  color: #f471c1;
   font-size: 0.9rem;
+}
+
+li {
+  color: white;
 }
