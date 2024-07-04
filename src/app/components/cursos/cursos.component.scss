@@ -9,6 +9,7 @@
 h1 {
   text-align: center;
   color: #333;
+  font-size: 32px;
 }
 
 .course-carousel {
@@ -28,7 +29,7 @@ h2 {
 }
 
 .course {
-  flex: 0 0 263px; /* Largura fixa dos cursos no carrossel */
+  flex: 0 0 300px; /* Largura fixa dos cursos no carrossel */
   margin-right: 20px;
   background-color: white;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
