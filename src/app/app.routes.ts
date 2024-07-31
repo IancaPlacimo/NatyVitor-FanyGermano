@@ -3,6 +3,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProcedimentosComponent } from './components/procedimentos/procedimentos.component';
 import { SobremimComponent } from './components/sobremim/sobremim.component';
 import { CursosComponent } from './components/cursos/cursos.component';
+import { LashComponent } from './components/lash/lash.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -10,4 +11,5 @@ export const routes: Routes = [
   { path: 'procedimentos', component: ProcedimentosComponent },
   { path: 'sobremim', component: SobremimComponent },
   { path: 'cursos', component: CursosComponent },
+  { path: 'lash', component: LashComponent },
 ];

@@ -7,36 +7,31 @@
 }
 
 a {
-  text-decoration: none; /* Remove sublinhado padrão */
-  color: inherit; /* Herda a cor do texto do elemento pai */
-  cursor: pointer; /* Define o cursor como ponteiro por padrão */
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .card {
   display: flex;
-  // justify-content: end;
   margin-top: 20px;
   cursor: pointer;
   background-color: #000000;
   border-radius: 8px;
-  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 300px;
   transition: transform 0.3s ease;
   max-height: 131px;
   min-height: 131px;
 
-  flex-direction: row; /* Organiza os elementos em coluna */
-  align-items: center; /* Centraliza horizontalmente */
-  justify-content: center; /* Centraliza verticalmente */
-  width: 300px; /* Ajuste conforme necessário */
-  // height: 400px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
   border: 1px solid #f471c1;
   border-right: 5px solid #f471c1;
   border-bottom: 5px solid #f471c1;
-  // border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  // background-color: #fff;
 }
 
 .card:hover {
@@ -45,18 +40,16 @@ a {
 
 .card2 {
   display: flex;
-  // justify-content: end !important;
   align-items: end;
 }
 
 .card-img {
-  // position: relative;
   min-width: 100%;
   display: flex;
-  justify-content: center; /* Centraliza a imagem horizontalmente */
-  align-items: center; /* Centraliza a imagem verticalmente */
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 200px; /* Ajuste conforme necessário */
+  height: 200px;
   overflow: hidden;
 }
 
@@ -71,10 +64,10 @@ a {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.8); /* Fundo branco transparente */
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   box-sizing: border-box;
-  border-radius: 0 0 8px 8px; /* Arredonda apenas a parte inferior do conteúdo */
+  border-radius: 0 0 8px 8px;
 }
 
 @media (max-width: 600px) {
@@ -83,24 +76,16 @@ a {
   }
 
   .card-img img {
-    border-radius: 8px; /* Adaptação para uma borda arredondada em telas menores */
+    border-radius: 8px;
   }
 }
 
 .card-text {
   padding: 10px;
   font-size: 20px;
-  // display: flex;
-  // align-items: center; /* Centraliza o texto verticalmente */
-  // justify-content: center; /* Centraliza o texto horizontalmente */
-  // text-align: center;
-  // width: 100%;
-  // padding: 10px;
 }
 
 .card-text p {
-  // margin: 0;
-  // font-size: 16px;
   text-align: center;
   color: #f471c1;
 }
